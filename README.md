@@ -1,9 +1,5 @@
 # Emotion Analysis System Documentation
 
-**Version:** 1.0  
-**Date:** February 25, 2025  
-**Author:** Grok 3 (xAI)
-
 ## Overview
 
 This document provides an in-depth overview of the Emotion Analysis System, a full-stack application for analyzing text emotions, topics, and Adorescores. It consists of a React frontend and a FastAPI backend with SQLite persistence, designed for users to input text, visualize results, and manage analyses. The system leverages NLP technologies (spaCy, transformers, sentence-transformers, VADER) to process text and calculate scores dynamically.
@@ -54,7 +50,7 @@ This document provides an in-depth overview of the Emotion Analysis System, a fu
 
 ### Software
 
-- **Frontend:** Node.js 16+/npm 8+, modern browser.
+- **Frontend:** Reactjs 16+/npm 8+, modern browser.
 - **Backend:** Python 3.8+/pip, SQLite (included with Python).
 - **Dependencies:** See individual frontend/backend docs.
 
